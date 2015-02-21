@@ -2,6 +2,11 @@ require "translates_to_french/version"
 
 module TranslatesToFrench
 
+  def self.included(base)  
+    base.extend ClassMethods
+    base.extend InstanceMethods
+  end  
+
   module ClassMethods
    
     def translates_to_french(*columns)
@@ -51,3 +56,7 @@ module TranslatesToFrench
   end
 
 end
+
+class ActiveRecord::Base  
+  include TranslatesToFrench
+end  
