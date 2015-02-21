@@ -20,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
+app/models/article.rb:
 
+    class Article < ActiveRecord::Base
+    	translates_to_french :title
+    end
+
+db table articles: 
+
+- title (varchar)
+- title_fr (varchar)
 
 ## Contributing
 
