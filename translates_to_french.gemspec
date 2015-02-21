@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'translates_to_french/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "translates-to-french"
+  spec.name          = "translates_to_french"
   spec.version       = TranslatesToFrench::VERSION
   spec.authors       = ["Gordon B. Isnor"]
   spec.email         = ["gordonbisnor@gmail.com"]
