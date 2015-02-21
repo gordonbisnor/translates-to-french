@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'translates_to_french/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "translates_to_french"
+  spec.name          = "translates-to-french"
   spec.version       = TranslatesToFrench::VERSION
   spec.authors       = ["Gordon B. Isnor"]
   spec.email         = ["gordonbisnor@gmail.com"]
   spec.summary       = "Basic i18n helper for Canadian Rails application models"
   spec.description   = "Basic i18n helper for Canadian Rails application models"
-  spec.homepage      = ""
+  spec.homepage      = "http://blog.isnorcreative.com/2015/02/21/translates-to-french.html"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
