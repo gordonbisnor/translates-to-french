@@ -23,7 +23,7 @@ Or install it yourself as:
 app/models/article.rb:
 
     class Article < ActiveRecord::Base
-    	translates_to_french :title
+      translates_to_french :title
     end
 
 db table articles: 
